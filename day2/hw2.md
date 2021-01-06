@@ -157,7 +157,7 @@ nasm -felf64 hello_upgrade.asm
 ld -s hello_upgrade.o -o hello_upgrade
 ```
 
-![upgrade_result](upgrade_result.png)
+![upgrade_result](upgrade_result.PNG)
 
 원리는 다음과 같다. 주어진 문제를 다음과 같이 3개의 step으로 나눠서 풀 수 있을 것이다.
 
